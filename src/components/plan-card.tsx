@@ -42,7 +42,7 @@ export function PlanCard({ plan, onSelectPlan }: PlanCardProps) {
           <div className="flex items-center space-x-3">
             <div className="text-2xl">{plan.flag}</div>
             <div>
-              <h3 className="font-bold text-lg text-gray-900">{plan.country}</h3>
+              <h3 className="font-bold text-lg" style={{ color: plan.color }}>{plan.country}</h3>
               <p className="text-sm text-gray-500">{plan.name}</p>
             </div>
           </div>
